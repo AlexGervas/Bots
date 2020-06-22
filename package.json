@@ -2,13 +2,15 @@
   "name": "node_vk_bot",
   "version": "1.0.0",
   "description": "vk bot",
-  "main": "vk_bot.js",
+  "main": "src/vk_bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/vk_bot.js"
   },
   "author": "AlexandraGervas",
   "license": "ISC",
   "dependencies": {
-    "node-vk-bot-api": "^3.3.4"
+    "node-vk-bot-api": "^3.3.4",
+    "node-vk-sdk": "^1.1.5"
   }
 }
