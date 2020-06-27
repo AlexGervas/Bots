@@ -15,7 +15,7 @@ bot.command('Начать', (ctx) => {
     console.log('keeeek');
     ctx.reply('Hello!');
 
-    ctx.reply('How are you doing?', null, Markup
+    ctx.reply('How are you?', null, Markup
         .keyboard([
             [
                 Markup.button('Normally', 'primary'),
