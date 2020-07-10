@@ -1,0 +1,6 @@
+/venv
+__pycache__
+secret.py
+.idea
+.DS_Store
+vk_config.v2.json
